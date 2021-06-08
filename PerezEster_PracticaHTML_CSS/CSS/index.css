@@ -1,0 +1,318 @@
+
+.header{	position: fixed;   /*fixed para que la cabecera se mantenga al hacer scroll*/
+			top:0;
+			width:100%;
+			padding:0px;
+			padding-top:0px;
+			padding-bottom:0px;
+			background: #333;
+			background-size:cover;
+			color: #FFFFFF;
+			z-index:1;   /*index 1 para que superponga sobre lo demás*/
+}
+table{border-collapse:collapse;
+ text-align:center;}
+
+#logo{	
+		
+		padding:0px;
+		padding-right:0px;
+		padding-left:0px;
+		
+		margin-top:0px;
+			margin-bottom:0px;
+		
+		margin:0px;
+		
+}
+ #inicio {	padding:0px;
+			padding-left:55px;
+			padding-right:165px;
+			
+			font:20px courier bolder;
+}
+#barra{ 	
+			padding:0px;
+			padding-left:100px;
+			padding-right:25px;
+			border-right:1px solid white;
+			font:20px verdana courier bolder;
+}
+
+input.buscar  {
+					border-radius: 4px;
+					padding:2px 6px;
+					cursor:pointer;
+					
+	
+}
+
+#login{
+			padding:0px;
+			padding-left:45px;
+			padding-right:15px;
+			background-color:#070707;
+			padding-bottom:4px;
+}
+
+#cuenta{
+			padding:0px;
+			padding-left:0px;
+			padding-right:15px;
+			padding-bottom:3px;
+			font:20px verdana courier bolder;
+			background-color:#070707;
+}
+
+#menu{			
+			padding-right:75px;
+			background-color:#070707;
+}
+
+#desplegable{
+	position:relative;
+	display:inline-block;		/*inline block para que el desplegable salgan las opciones una sobre otra*/
+	color:white;
+}
+#desplegableContenido{
+
+	display:none;
+	background-color:#333;
+	box-shadow: 1px 1px 1px 0px;
+	position:absolute;
+	z-index:1;
+	
+	
+}
+
+#desplegableContenido a{
+	
+	color:white;
+	padding:12px 18px;
+	text-decoration:none;
+	display:block;
+	font-size:15px;
+	cursor:pointer;
+
+}
+#desplegableContenido a:hover{
+	background-color:#070707;
+	
+}
+#desplegable:hover #desplegableContenido{
+	display:block;
+}
+
+button.login{	
+				border:1px solid white;
+				border-radius: 3px;
+				color:white;
+				background-color:	#333;
+				padding:2px 4px;
+				cursor:pointer;
+				
+}
+
+button.cuenta{
+					border:1px solid white;
+				border-radius: 3px;
+				color:white;
+				background-color:	#333;
+				padding:2px 4px;
+				cursor:pointer;
+	
+}
+
+button.menu {
+				border:1px solid white;
+				border-radius: 3px;
+				color:white;
+				background-color:	#333;
+				padding:2px 4px;
+				cursor:pointer;
+}
+
+.seccion1{	
+			
+			margin-top:100px;
+			height:430px;
+			background:url("../images/seccion.png");
+			background-size:cover;
+			
+			
+	
+}
+
+
+
+.tablaSeccion1{
+		font:20px courier bolder;
+		color:white;
+		border-collapse:collapse;
+}
+
+#album{
+	padding-left:300px;
+	padding-right:0px;
+	padding-top:65px;
+	
+}
+
+#cuenta2{
+	padding-left:300px;
+	padding-right:0px;
+}
+
+button.cuenta2{
+					border:1px solid white;
+				border-radius: 3px;
+				font-size:18px;
+				color:white;
+				background-color:	#333;
+				padding:2px 4px;
+				cursor:pointer;
+	
+}
+#login2{
+	padding-left:223px;
+}
+button:hover{
+	background-color:white;
+	color:#333;
+	border-color:#333;
+}
+
+.seccion2{	
+			
+			margin-top:20px;
+			height:500px;
+			background:transparent;
+			background-size:cover;
+			
+			
+	
+}
+
+#top{	
+		position:relative;
+		top:150px;
+		right:100px;
+		float:right;}
+
+.tablaSeccion2{
+		font:20px courier bolder;
+		color:white;
+		border-collapse:collapse;
+}
+#dawlins{
+	padding-top:30px;
+	padding-right:100px;
+	
+}
+
+#nitido{
+	
+	padding-right:150px;
+	padding-bottom:0px;
+}
+
+#gata{
+		padding-right:150px;
+	padding-top:30px;
+}
+
+a{text-decoration:none;
+	font:20px courier bolder;
+	color:black;
+}
+
+.seccion3{
+			font:20px courier bolder;
+			margin-top:0px;
+			height:500px;
+			background:url("../images/contacta.png") ;
+			background-size:cover;
+}
+
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}
+
+.principal {
+    display:block;
+    margin:0 auto;  /*0 auto para que se situe automaticamente en el centro*/
+    width:510px;
+    color: #666666;
+    font-family:Arial;
+}
+
+.formulario {
+    margin:0 auto;
+    width:400px;
+}
+
+#nombre, #mensaje, #email {
+	width:300px;
+	height:20px;
+	background:#666666;
+	border:2px solid #f6f6f6;
+	padding:5px;
+	margin-top:5px;
+	font-size:20px;
+	color:white;
+}
+
+#mensaje {
+	height:100px;
+}
+
+#submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+.seccion4{
+			margin-top:50px;
+			height:500px;
+			background:transparent ;
+			background-size:cover;
+	
+}
+
+.imagen{
+	position:absolute;
+	left:95px;
+}
+
+#produccion{
+	float: left;
+	
+}
+
+.letra{
+		position:relative;
+		left:50px;
+}
+.seccion5 {
+			color:white;
+			margin-top:1px;
+			
+			height:20px;
+			background: #070707 ;
+			background-size:cover;
+}
+
+#icon:hover{
+	position:relative;
+	width:10%;			/*le aumento el tamaño cada vez que pasa el ratón sobre la imagen*/
+}
+#icon2:hover{
+	position:relative;
+	width:7%;
+}
+

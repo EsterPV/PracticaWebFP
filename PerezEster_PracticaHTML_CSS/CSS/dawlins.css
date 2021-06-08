@@ -1,0 +1,204 @@
+.header{	position: fixed;
+			top:0;
+			width:100%;
+			padding:0px;
+			padding-top:0px;
+			padding-bottom:0px;
+			background: #333;
+			background-size:cover;
+			color: #FFFFFF;
+			z-index:1;
+}
+table{border-collapse:collapse;
+ text-align:center;}
+
+#logo{	
+		
+		padding:0px;
+		padding-right:0px;
+		padding-left:0px;
+		
+		margin-top:0px;
+			margin-bottom:0px;
+		
+		margin:0px;
+		
+}
+ #inicio {	padding:0px;
+			padding-left:55px;
+			padding-right:165px;
+			
+			font:20px courier bolder;
+}
+#barra{ 	
+			padding:0px;
+			padding-left:100px;
+			padding-right:25px;
+			border-right:1px solid white;
+			font:20px verdana courier bolder;
+}
+
+input.buscar  {
+					border-radius: 4px;
+					padding:2px 6px;
+				cursor:pointer;
+					
+	
+}
+
+#login{
+			padding:0px;
+			padding-left:45px;
+			padding-right:15px;
+			background-color:#070707;
+			
+}
+
+#cuenta{
+	padding:0px;
+			padding-left:0px;
+			padding-right:15px;
+			padding-bottom:3px;
+			font:20px verdana courier bolder;
+			background-color:#070707;
+}
+
+#menu{			
+			padding-right:75px;
+			background-color:#070707;
+}
+
+#desplegable{
+	position:relative;
+	display:inline-block;
+	color:white;
+}
+#desplegableContenido{
+
+	display:none;
+	background-color:#333;
+	box-shadow: 1px 1px 1px 0px;
+	position:absolute;
+	z-index:1;
+	
+	
+}
+
+#desplegableContenido a{
+	
+	color:white;
+	padding:12px 18px;
+	text-decoration:none;
+	display:block;
+	font-size:15px;
+	cursor:pointer;
+
+}
+#desplegableContenido a:hover{
+	background-color:#070707;
+	
+}
+#desplegable:hover #desplegableContenido{
+	display:block;
+}
+
+button.login{	
+				border:1px solid white;
+				border-radius: 3px;
+				color:white;
+				background-color:	#333;
+				padding:2px 4px;
+				cursor:pointer;
+				
+}
+
+button.cuenta{
+					border:1px solid white;
+				border-radius: 3px;
+				color:white;
+				background-color:	#333;
+				padding:2px 4px;
+				cursor:pointer;
+	
+}
+
+button.menu {
+				border:1px solid white;
+				border-radius: 3px;
+				color:white;
+				background-color:	#333;
+				padding:2px 4px;
+				cursor:pointer;
+}
+button.menu {
+				border:1px solid white;
+				border-radius: 3px;
+				color:white;
+				background-color:	#333;
+				padding:2px 4px;
+				cursor:pointer;
+}
+
+button:hover{
+	background-color:white;
+	color:#333;
+	border-color:#333;
+}
+
+.seccion1{
+	margin-top:100px;
+	background:transparent;
+	background-size:cover;
+	height:500px;
+}
+
+#titulo{
+	position:absolute;
+	left:600px;
+	top:100px;
+	font:30px courier bolder;
+}
+#dawlinsfoto{float:left;}
+.foto1{
+	position:relative;
+	bottom:1px;
+	right:100px;
+}
+
+#bio{
+	font:20px verdana courier bolder;
+	position:relative;
+	right:1px;
+	top:200px;
+}
+
+.seccion2{
+	margin-top:10px;
+	background:#333;
+	background-size:cover;
+	height:500px;
+}
+
+span#titulo2{
+	position:relative;
+	right:465px;
+	top:20px;
+	font:30px courier bolder;
+	color:white;
+
+}
+
+.videoYoutube{
+	position: absolute;
+	left:350px;
+	top:720px;
+}
+
+.seccion5 {
+			color:white;
+			margin-top:0px;
+			
+			height:20px;
+			background: #070707 ;
+			background-size:cover;
+}

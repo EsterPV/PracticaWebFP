@@ -1,0 +1,113 @@
+
+.header{	position: fixed;
+			top:0;
+			width:25%;
+			padding:0px;
+			padding-top:0px;
+			padding-bottom:0px;
+			background:transparent;
+			
+		
+			z-index:1;
+}
+
+
+
+body{
+	background:url("../images/fondo1.jpg");
+	background-size:cover;
+}
+
+
+table{border-collapse:collapse;
+ text-align:center;}
+ 
+.formulario{
+	margin-top:20px;
+
+}
+
+#formulario{
+		
+		background: #EBE9E4 ;
+		
+		 border:2px solid #646361  ;
+		 border-radius: 10px;
+		
+}
+
+#correo,#contraseña{
+	padding:10px 12px;
+}
+
+input {
+   width:300px;
+	height:20px;
+	   border-radius: 10px;
+	border:2px solid #646361  ;
+	padding:5px;
+	margin-top:5px;
+	font-size:20px;
+	color:black;
+}
+
+#boton {
+	padding:10px 105px;
+	 border-radius: 10px;
+	border:2px solid #5852BF ;
+	font-size:20px;
+	background:#5852BF  ;
+	color:#EBE9E4;
+	cursor:pointer;
+}
+
+#boton:hover{
+	background:#5650B8 
+}
+
+a{
+	color:#5852BF ;
+	text-decoration:none;
+	font-size:18px;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+#nombre,#apellidos{
+	padding:10px;
+	width:145px;
+}
+#movil,#fecha{
+	padding:10px 20px;
+}
+label{
+	display:block;
+	color:#646361;
+}
+
+#genero{
+	width:10px;
+	  
+
+	
+}
+
+#radio{
+	padding:6px 28px;
+	 border-radius: 10px;
+	border:2px solid #646361  ;
+	background:white ;
+}
+
+
+
+.seccion5 {
+			color:#070707 ;
+			margin-top:0px;
+			
+			height:20px;
+			background: transparent ;
+			background-size:cover;
+}

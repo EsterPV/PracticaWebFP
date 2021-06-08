@@ -1,0 +1,175 @@
+.header{	position: fixed;
+			top:0;
+			width:100%;
+			padding:0px;
+			padding-top:0px;
+			padding-bottom:0px;
+			background-color: #333;
+			
+			color: #FFFFFF;
+}
+table{border-collapse:collapse;
+ text-align:center;}
+
+#logo{	
+		
+		padding:0px;
+		padding-right:0px;
+		padding-left:0px;
+		
+		margin-top:0px;
+			margin-bottom:0px;
+		
+		margin:0px;
+		
+}
+ #inicio {	padding:0px;
+			padding-left:55px;
+			padding-right:165px;
+			
+			font:20px courier bolder;
+}
+#barra{ 	
+			padding:0px;
+			padding-left:100px;
+			padding-right:25px;
+			border-right:1px solid white;
+			font:20px verdana courier bolder;
+}
+
+input.buscar  {
+					border-radius: 4px;
+					padding:2px 6px;
+				cursor:pointer;
+					
+	
+}
+
+#login{
+		padding:0px;
+			padding-left:45px;
+			padding-right:15px;
+			background-color:#070707;
+			
+}
+
+#cuenta{
+	padding:0px;
+			padding-left:0px;
+			padding-right:15px;
+			padding-bottom:3px;
+			font:20px verdana courier bolder;
+			background-color:#070707;
+}
+
+#menu{			
+			padding-right:75px;
+			background-color:#070707;
+}
+
+button.login{	
+				border:1px solid white;
+				border-radius: 3px;
+				color:white;
+				background-color:	#333;
+				padding:2px 4px;
+				cursor:pointer;
+				
+}
+
+button.cuenta{
+					border:1px solid white;
+				border-radius: 3px;
+				color:white;
+				background-color:	#333;
+				padding:2px 4px;
+				cursor:pointer;
+	
+}
+
+button.menu {
+				border:1px solid white;
+				border-radius: 3px;
+				color:white;
+				background-color:	#333;
+				padding:2px 4px;
+				cursor:pointer;
+}
+
+.seccion1{	
+			
+			margin-top:100px;
+			height:430px;
+			background:url("images/seccion.png");
+			background-size:cover;
+			
+			
+	
+}
+
+.tablaSeccion1{
+		font:20px courier bolder;
+		color:white;
+		border-collapse:collapse;
+}
+
+#album{
+	padding-left:300px;
+	padding-right:0px;
+	padding-top:65px;
+	
+}
+
+#cuenta2{
+	padding-left:300px;
+	padding-right:0px;
+}
+
+button.cuenta2{
+					border:1px solid white;
+				border-radius: 3px;
+				font-size:18px;
+				color:white;
+				background-color:	#333;
+				padding:2px 4px;
+				cursor:pointer;
+	
+}
+#login2{
+	padding-left:223px;
+}
+button:hover{
+	background-color:white;
+	color:#333;
+	border-color:#333;
+}
+
+.seccion2{	
+			
+			margin-top:20px;
+			height:430px;
+			
+			background-size:cover;
+			
+			
+	
+}
+.tablaSeccion2{
+		font:20px courier bolder;
+		color:white;
+		border-collapse:collapse;
+}
+#dawlins{
+	padding-top:30px;
+	
+}
+#nitido{
+	
+	padding-right:300px;
+	padding-bottom:0px;
+}
+
+#gata{
+		padding-right:300px;
+	padding-top:30px;
+}
